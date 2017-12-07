@@ -8,7 +8,8 @@
 /*define el ancho del todo*/
 .container{
   width: 100%;
-  max-width: 1200px;
+  /*1200px*/
+  max-width: 1500px;
   margin: 0px auto;
 }
 
@@ -16,10 +17,214 @@
  .row::after{
   display: table;
   content: '';
-
 }
 
 /*denominando a todas nuestras columnas*/
 [class*='col-']{
   float: left;
+  outline: 1px solid blueviolet;
+  background-color: burlywood;
+  /*padding: 1em;*/
+}
+/*vista de celular*/
+.col-xs-1{
+/*1/12*100%, define el ancho*/
+width: 8.333333333333332%;
+}
+
+.col-xs-2{
+/*1/12*100%, define el ancho*/
+width: 16.666666666666664%;
+}
+
+.col-xs-3{
+/*1/12*100%, define el ancho*/
+width: 25%;
+}
+
+.col-xs-4{
+/*1/12*100%, define el ancho*/
+width: 33.33333333333333%;
+}
+.col-xs-5{
+/*1/12*100%, define el ancho*/
+width: 41.66666666666667%;
+}
+.col-xs-6{
+/*1/12*100%, define el ancho*/
+width: 50%;
+}
+
+.col-xs-7{
+/*1/12*100%, define el ancho*/
+width: 58.333333333333336%
+}
+
+.col-xs-8{
+/*1/12*100%, define el ancho*/
+width: 66.66666666666666%;
+}
+
+.col-xs-9{
+/*1/12*100%, define el ancho*/
+width: 75%;
+}
+
+.col-xs-10{
+/*1/12*100%, define el ancho*/
+width: 83.33333333333334%;
+}
+
+.col-xs-11{
+/*1/12*100%, define el ancho*/
+width: 91.66666666666666%;
+}
+
+.col-xs-12{
+/*1/12*100%, define el ancho*/
+width: 100%;
+}
+
+/*para tablet*/
+@media (min-width: 768px){
+  .col-sm-1{
+  /*1/12*100%, define el ancho*/
+  width: 8.333333333333332%;
+  }
+
+  .col-sm-2{
+  /*1/12*100%, define el ancho*/
+  width: 16.666666666666664%;
+  }
+
+  .col-sm-3{
+  /*1/12*100%, define el ancho*/
+  width: 25%;
+  }
+
+  .col-sm-4{
+  /*1/12*100%, define el ancho*/
+  width: 33.33333333333333%;
+  }
+  .col-sm-5{
+  /*1/12*100%, define el ancho*/
+  width: 41.66666666666667%;
+  }
+  .col-sm-6{
+  /*1/12*100%, define el ancho*/
+  width: 50%;
+
+  }
+
+  .col-sm-7{
+  /*1/12*100%, define el ancho*/
+  width: 58.333333333333336%
+  }
+
+  .col-sm-8{
+  /*1/12*100%, define el ancho*/
+  width: 66.66666666666666%;
+  }
+
+  .col-sm-9{
+  /*1/12*100%, define el ancho*/
+  width: 75%;
+  }
+
+  .col-sm-10{
+  /*1/12*100%, define el ancho*/
+  width: 83.33333333333334%;
+  }
+
+  .col-sm-11{
+  /*1/12*100%, define el ancho*/
+  width: 91.66666666666666%;
+  }
+
+  .col-sm-12{
+  /*1/12*100%, define el ancho*/
+  width: 100%;
+  }
+}
+
+/*para latops*/
+@media(min-width: 992px){
+  .col-md-1{
+  /*1/12*100%, define el ancho*/
+  width: 8.333333333333332%;
+  }
+
+  .col-md-2{
+  /*1/12*100%, define el ancho*/
+  width: 16.666666666666664%;
+  }
+
+  .col-md-3{
+  /*1/12*100%, define el ancho*/
+  width: 25%;
+  }
+
+  .col-md-4{
+  /*1/12*100%, define el ancho*/
+  width: 33.33333333333333%;
+  }
+  .col-md-5{
+  /*1/12*100%, define el ancho*/
+  width: 41.66666666666667%;
+  }
+  .col-md-6{
+  /*1/12*100%, define el ancho*/
+  width: 50%;
+  }
+
+  .col-md-7{
+  /*1/12*100%, define el ancho*/
+  width: 58.333333333333336%
+  }
+
+  .col-md-8{
+  /*1/12*100%, define el ancho*/
+  width: 66.66666666666666%;
+  }
+
+  .col-md-9{
+  /*1/12*100%, define el ancho*/
+  width: 75%;
+  }
+
+  .col-md-10{
+  /*1/12*100%, define el ancho*/
+  width: 83.33333333333334%;
+  }
+
+  .col-md-11{
+  /*1/12*100%, define el ancho*/
+  width: 91.66666666666666%;
+  }
+
+  .col-md-12{
+  /*1/12*100%, define el ancho*/
+  width: 100%;
+  }
+
+}
+
+/*estilo*/
+.menu{
+  text-align: center;
+color: pink;
+margin : 10px 0;
+}
+
+.input input{
+  width: 100%;
+}
+
+.navbar nav{
+  background-color: blue;
+  height: 10px;
+}
+
+.girl img{
+  width: 100%;
 }
