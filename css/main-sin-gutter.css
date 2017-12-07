@@ -1,0 +1,25 @@
+/*universal*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*elemento padre*/
+/*define el ancho del todo*/
+.container{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+/*filas*/
+ .row::after{
+  display: table;
+  content: '';
+
+}
+
+/*denominando a todas nuestras columnas*/
+[class*='col-']{
+  float: left;
+}
